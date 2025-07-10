@@ -16,6 +16,8 @@ header{
 nav{
     display: flex;
     justify-content: space-around;
+    margin: 0 150px;
+    gap: 1050px;
 }
 
 .raleway-normal{
@@ -50,5 +52,25 @@ nav li{
     padding: auto;
 }
 .btn2{
-margin: 10px 0;
+margin: 37px 0 0 0;
+
+}
+.overall{
+    display: flex;
+    justify-content: space-around;
+    margin: 200px 141px;
+}
+.picture1{
+    border: none;
+    border-radius: 48px;
+
+}
+.text-color2{
+    color: rgba(37, 36, 50, 0.5);
+    font-size: 24px;
+}
+.text-color1{
+    color: rgba(37, 36, 50, 1);
+    font-size: 42px;
+    font-weight: bold;
 }
