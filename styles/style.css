@@ -9,9 +9,6 @@ header{
     text-align: center;
     padding: 0;
     margin: 0;
-    
-
-    
 }
 
 nav{
@@ -86,25 +83,46 @@ margin: 37px 0 0 0;
     display: flex;
     justify-content: space-around;
 }
-.join-section{
-    background-color: rgba(78, 71, 255, 0.1);
+.stats-container {
+      background-color: rgba(78, 71, 255, 0.1);
     border: none;
     border-radius: 24px;
-     padding: 130px 150px;
+     padding: 80px 50px;
      text-align: center;
      width: 1140px;
      height: 306px;
-     
-     padding: 130px 150px;
-}
-.join-section-header{
-font-size: 38px;
-}
-.about-items{
-    display: flex;
-    justify-content: space-around;
-    
-}
+     margin: 100px 160px 100px 150px;
+    }
+
+    .stats-container h2 {
+      font-size: 38px;
+      padding: 10px 0;
+      margin-bottom: 30px;
+      color: #111;
+    }
+
+    .stats {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .stat-item {
+      flex: 1;
+    }
+
+    .stat-item h3 {
+      font-size: 80px;
+      color: rgba(78, 71, 255, 1);
+      margin: 0;
+    }
+
+    .stat-item p {
+      margin-top: 8px;
+      font-size: 20px;
+      color: rgba(0, 0, 0, 0.5);
+    }
+
+
 .blue{
 color: rgba(78, 71, 255, 1);
 }
@@ -124,6 +142,8 @@ margin: 0 150px;
 }*/
 .review-section{
  
+ 
+
 }
 .review-container{
     display: flex;
@@ -136,7 +156,7 @@ margin: 0 150px;
     text-align: center;
     font-size: 42px;
     font-weight: bold;
-    padding: 100px;
+    color: rgba(37, 36, 50, 1);
 }
 .avatar{
     display: flex;
@@ -237,10 +257,13 @@ form textarea{
 }
 
 .footer-header{
-    font-weight: 10000px;
+    font-weight: bolder;
     font-size: 100px;
     text-align: center;
     align-items: center;
+    padding: 100px 0 5px 0;
+    
+    
 }
 .footer-section{
      text-align: center;
@@ -253,16 +276,36 @@ footer{
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06) ;
     height: 428px;
 }
-.dashboard{
+
+footer ul{
     display: flex;
     justify-content: center;
+    gap: 20px;
     gap: 48px;
 }
-ul li{
-    text-decoration: none;
+footer ul li{
+    
     list-style: none;
+    
 
 }
-ul a{
+footer ul  li a{
     text-decoration: none;
+    color: black;
 }
+.footer-text{
+    font-size: 16px;
+    font-weight: normal;
+}
+button:hover{
+    color: black;
+    background-color:skyblue;
+}
+
+
+
+
+
+
+
+ 
