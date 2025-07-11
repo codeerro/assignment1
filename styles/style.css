@@ -1,5 +1,5 @@
 header{
-    background-image: url(/Assets/Hero-bg.png);
+    background-image: url(../Assets/Hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -177,4 +177,92 @@ action-header{
     border: none;
     border-radius: 48px;
     margin: 20px 150px;
+}
+
+.get-in-touch-section{
+    padding: 130px;
+    display: flex;
+    gap: 100px;
+}
+
+
+.in-touch-header{
+    font-size: 97px;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+}
+.get-in-touch{
+    width: 50%;
+}
+/*form{
+    height: 64px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+    font-size: 16px;
+    gap: 20px;
+}*/
+form input[type="text"] {
+    width: 497px;
+    height: 70px;
+    border-radius: 10px;
+    gap: 10px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06) ;
+}
+form input[type="email"]{
+width: 497px;
+    height: 70px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06) ;
+    gap: 10px;
+    
+    
+}
+form textarea{
+    width: 497px;
+    height: 135px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06) ;
+    gap: 10px;
+}
+.btn-form{
+    width: 497px;
+    height: 62px;
+
+}
+
+.footer-header{
+    font-weight: 10000px;
+    font-size: 100px;
+    text-align: center;
+    align-items: center;
+}
+.footer-section{
+     text-align: center;
+     align-items: center;
+}
+.bg{
+background-color: #FFFFFF;
+}
+footer{
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06) ;
+    height: 428px;
+}
+.dashboard{
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+ul li{
+    text-decoration: none;
+    list-style: none;
+
+}
+ul a{
+    text-decoration: none;
 }
