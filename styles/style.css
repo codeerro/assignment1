@@ -36,7 +36,7 @@ nav li{
 .nav-title{
     color: #4E47FF;
     font-size: 34px;
-    font-weight: bolder;
+    font-weight: 900;
 
 
 }
@@ -155,14 +155,14 @@ margin: 0 150px;
 }*/
 .review-section{
  
- 
+ margin: 0 150px;
 
 }
 .review-container{
     display: flex;
     justify-content: space-around;
     gap: 24PX;
-
+    
 }
 
 .user-header{
@@ -215,7 +215,7 @@ action-header{
 
 
 .footer-header{
-    font-weight: bolder;
+    font-weight: 900;
     font-size: 100px;
     text-align: center;
     align-items: center;
