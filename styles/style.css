@@ -13,6 +13,7 @@ header{
 
     
 }
+
 nav{
     display: flex;
     justify-content: space-around;
@@ -22,6 +23,13 @@ nav{
 
 .raleway-normal{
   font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+.inter-normal{
+  font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
@@ -73,4 +81,64 @@ margin: 37px 0 0 0;
     color: rgba(37, 36, 50, 1);
     font-size: 42px;
     font-weight: bold;
+}
+.about-item{
+    display: flex;
+    justify-content: space-around;
+}
+.join-section{
+    background-color: rgba(78, 71, 255, 0.1);
+    border: none;
+    border-radius: 24px;
+     padding: 130px 150px;
+     text-align: center;
+     width: 1140px;
+     height: 306px;
+     
+     padding: 130px 150px;
+}
+.join-section-header{
+font-size: 38px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.blue{
+color: rgba(78, 71, 255, 1);
+}
+.header-class{
+    font-size: 80px;
+    font-weight: bold;
+
+}
+
+main{
+margin: 0 150px;
+}
+.skills-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 24PX;
+}
+.user-header{
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+    padding: 100px;
+}
+.avatar{
+    display: flex;
+    gap: 5px;
+}
+.avatarId{
+border-radius: 9999px;
+width: 40px;
+height: 40px;
+}
+.skill{
+padding: 30px;
+border-radius: 5px;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06) ;
 }
