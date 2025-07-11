@@ -36,6 +36,7 @@ nav li{
 .nav-title{
     color: #4E47FF;
     font-size: 34px;
+    font-weight: bolder;
 
 
 }
@@ -55,6 +56,10 @@ nav li{
 }
 .banner-title{
     padding: auto;
+    font-size: 65px;
+    font-weight: bold;
+    
+
 }
 .btn2{
 margin: 37px 0 0 0;
@@ -78,6 +83,13 @@ margin: 37px 0 0 0;
     color: rgba(37, 36, 50, 1);
     font-size: 42px;
     font-weight: bold;
+}
+.date-text{
+   color: rgba(37, 36, 50, 1);
+   font-size: 16px; 
+   margin: 0 0 20px 0;
+   padding: 0 0 20px 0;
+   
 }
 .about-item{
     display: flex;
@@ -125,6 +137,7 @@ margin: 37px 0 0 0;
 
 .blue{
 color: rgba(78, 71, 255, 1);
+
 }
 .header-class{
     font-size: 80px;
@@ -199,6 +212,106 @@ action-header{
     margin: 20px 150px;
 }
 
+
+
+.footer-header{
+    font-weight: bolder;
+    font-size: 100px;
+    text-align: center;
+    align-items: center;
+    padding: 100px 0 5px 0;
+    
+    
+}
+.footer-section{
+     text-align: center;
+     align-items: center;
+}
+.bg{
+background-color: #FFFFFF;
+}
+footer{
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06) ;
+    height: 428px;
+}
+
+footer ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    gap: 48px;
+}
+footer ul li{
+    
+    list-style: none;
+    
+
+}
+footer ul  li a{
+    text-decoration: none;
+    color: black;
+}
+.footer-text{
+    font-size: 16px;
+    font-weight: normal;
+}
+button:hover{
+    color: black;
+    background-color:skyblue;
+}
+
+
+
+/*form part*/
+.contact-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 100px 50px;
+  gap: 80px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.left h1 {
+  font-size: 97px;
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+}
+
+.right {
+  flex: 1;
+  max-width: 450px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: 500;
+  margin: 10px 0 5px;
+  color: #111;
+}
+
+input, textarea {
+  padding: 15px;
+  border: 1px solid #d6dfff;
+  border-radius: 10px;
+  font-size: 16px;
+  background-color: #fff;
+  margin-bottom: 10px;
+  outline: none;
+  width: 497px;
+  height: 70px;
+}
+
+textarea {
+  resize: none;
+}
+
 .get-in-touch-section{
     padding: 130px;
     display: flex;
@@ -251,57 +364,9 @@ form textarea{
     gap: 10px;
 }
 .btn-form{
-    width: 497px;
-    height: 62px;
-
+    width: 525px;
+    height: 70px;
 }
-
-.footer-header{
-    font-weight: bolder;
-    font-size: 100px;
-    text-align: center;
-    align-items: center;
-    padding: 100px 0 5px 0;
-    
-    
-}
-.footer-section{
-     text-align: center;
-     align-items: center;
-}
-.bg{
-background-color: #FFFFFF;
-}
-footer{
-    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06) ;
-    height: 428px;
-}
-
-footer ul{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    gap: 48px;
-}
-footer ul li{
-    
-    list-style: none;
-    
-
-}
-footer ul  li a{
-    text-decoration: none;
-    color: black;
-}
-.footer-text{
-    font-size: 16px;
-    font-weight: normal;
-}
-button:hover{
-    color: black;
-    background-color:skyblue;
-}
-
 
 
 

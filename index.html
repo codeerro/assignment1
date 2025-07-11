@@ -22,7 +22,7 @@
     </ul>
  </nav>
  <div class="banner">
-    <h1 class="banner-title">Cool Dark UI Template for Webflow Agencies!</h1>
+    <h1 class="banner-title">Cool Dark UI Template for<br> Webflow Agencies!</h1>
     <button class="btn-primary btn2">Stay Focused</button>
  </div>
     </header>
@@ -92,7 +92,7 @@
                         <img  class="avatarId" src="./Assets/avatar.png" alt="">
                     <p>Reviewer Name</p>
                     </div>
-                    <p>Date</p>
+                    <p class="date-text">Date</p>
                     
                 </div>
                  <div class="review">
@@ -103,7 +103,7 @@
                         <img  class="avatarId" src="./Assets/avatar.png" alt="">
                     <p>Reviewer Name</p>
                     </div>
-                    <p>Date</p>
+                    <p class="date-text">Date</p>
                     
                 </div> <div class="review">
                     <img src="./Assets/icon-star.png" alt="" width="20px" height="20px"><img src="./Assets/icon-star.png" alt="" width="20px" height="20px"><img src="./Assets/icon-star.png" alt="" width="20px" height="20px"><img src="./Assets/icon-star.png" alt="" width="20px" height="20px"><img src="./Assets/icon-star.png" alt="" width="20px" height="20px">
@@ -113,7 +113,8 @@
                         <img  class="avatarId" src="./Assets/avatar.png" alt="">
                     <p>Reviewer Name</p>
                     </div>
-                    <p>Date</p>
+                    <p class="date-text">Date</p>
+                   
                     
                 </div>
                 
@@ -140,7 +141,7 @@
 
         </section>
 
-        <section class="get-in-touch-section">
+        <!--<section class="get-in-touch-section">
         <div class="get-in-touch">
             <h3 class="in-touch-header">Let’s Get in Touch</h3>
         </div>
@@ -155,8 +156,29 @@
                 <input class="btn-primary btn-form" type="button" value="Get in touch">
             </form>
         </div>
-        </section>
+        </section>-->
+         <div class="contact-section">
+    <div class="left">
+      <h1>Let’s Get in<br>Touch</h1>
+    </div>
+    <div class="right">
+      <form>
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="example@email.com" required>
+
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="full name" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" placeholder="write your message...." rows="5" required></textarea>
+
+        <button  class="btn-primary btn-form" type="submit">Get in Touch</button>
+      </form>
+    </div>
+  </div>
     </main>
+
+    
     <footer class="bg">
     <div class="footer-section">
         <h1 class="footer-header blue inter-normal">LOGO</h1>
